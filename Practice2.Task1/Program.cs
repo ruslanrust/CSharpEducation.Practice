@@ -51,8 +51,6 @@
                 l += 1;
             } while (l < 3);
             Console.WriteLine(result3);
-
-
         }
     }
 }
