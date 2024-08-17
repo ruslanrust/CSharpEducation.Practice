@@ -7,11 +7,7 @@ namespace Practice3.Task4
     public string title;
     public string author;
 
-    public Book()
-    {
-      this.title = "Война и мир";
-      this.author = "Лев Толстой";
-    }
+    public Book() { }
 
     public Book(string title, string author)
     {

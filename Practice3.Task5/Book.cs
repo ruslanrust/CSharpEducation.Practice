@@ -1,7 +1,4 @@
-﻿using System.Reflection;
-using System.Xml.Linq;
-
-namespace Practice3.Task5
+﻿namespace Practice3.Task5
 {
   public class Book
   {
@@ -9,9 +6,9 @@ namespace Practice3.Task5
     public string author;
     public int yearOfPublication;
 
-    public Book() : this("Unknown title", "Unknown author", 0) { }
+    public Book() { }
    
-    public Book(string title) : this(title, "Unknown author", 0) { }
+    public Book(string title) : this(title, null, 0) { }
 
     public Book(string title, string author) : this(title, author, 0) { }
 
