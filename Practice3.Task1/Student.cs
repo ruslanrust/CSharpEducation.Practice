@@ -9,7 +9,7 @@ namespace Practice3.Task1
 
     public void PrintInfo()
     {
-      Console.WriteLine($"Имя: {name}, возраст: {age}");
+      Console.WriteLine($"Имя: {this.name}, возраст: {this.age}");
     }
   }
 }

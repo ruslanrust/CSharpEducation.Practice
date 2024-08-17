@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Practice3.Task1
+﻿namespace Practice3.Task1
 {
   internal class Program
   {

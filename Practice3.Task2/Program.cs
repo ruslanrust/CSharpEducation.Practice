@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace Practice3.Task2
+﻿namespace Practice3.Task2
 {
   internal class Program
   {
