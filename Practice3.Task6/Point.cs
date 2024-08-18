@@ -10,6 +10,14 @@
       this.x = x;
       this.y = y;
     }
-    
+
+    public static double CalculateDistance(Point a, Point b)
+    {
+      double dX = (double)(b.x - a.x);
+      double dY = (double)(b.y - a.y);
+
+      return Math.Sqrt(dX * dX + dY * dY);
+    }
+
   }
 }
